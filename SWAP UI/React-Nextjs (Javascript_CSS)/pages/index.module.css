@@ -1,0 +1,140 @@
+.armToPsm {
+  position: absolute;
+  top: 7px;
+  left: 346px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 712px;
+  height: 104px;
+}
+.prysmSpectrumNoBg1 {
+  position: absolute;
+  top: 2255px;
+  left: 3302px;
+  width: 570px;
+  height: 570px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.frameParent,
+.groupChild {
+  position: absolute;
+  border-radius: var(--br-3xs);
+}
+.frameParent {
+  top: 233px;
+  left: 180px;
+  background-color: var(--color-gray-300);
+  width: 1405px;
+  height: 800px;
+  overflow: hidden;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #0c82fc, #a67eff);
+  width: 264px;
+}
+.connectToWallet {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  font-weight: 300;
+}
+.frameGroup {
+  position: absolute;
+  top: 9px;
+  left: 779px;
+  width: 264px;
+  height: 56px;
+}
+.governance,
+.home,
+.lpCreation,
+.stake,
+.swap,
+.transfers {
+  position: absolute;
+  top: 0;
+  left: 306px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 140px;
+  height: 28px;
+}
+.home,
+.lpCreation,
+.stake,
+.swap,
+.transfers {
+  left: 459px;
+}
+.home,
+.lpCreation,
+.stake,
+.swap {
+  left: 586px;
+}
+.home,
+.stake,
+.swap {
+  left: 206px;
+  width: 66px;
+}
+.home,
+.swap {
+  left: 106px;
+}
+.home {
+  left: 0;
+}
+.governanceParent,
+.groupParent {
+  position: absolute;
+  top: 23px;
+  left: 23px;
+  width: 726px;
+  height: 28px;
+}
+.groupParent {
+  top: 52px;
+  left: 597px;
+  border-radius: var(--br-3xs);
+  background-color: #101016;
+  width: 1055px;
+  height: 75px;
+  overflow: hidden;
+  display: none;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.prysmIcon1,
+.prysmText1 {
+  position: absolute;
+  top: 100px;
+  left: 746px;
+  width: 475px;
+  height: 70px;
+  object-fit: cover;
+}
+.prysmIcon1 {
+  top: 50px;
+  left: 578px;
+  width: 150px;
+  height: 134px;
+  object-fit: contain;
+}
+.swapUiPrysm {
+  position: relative;
+  background-color: #0a0a0e;
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 48px;
+  color: var(--color-white);
+  font-family: var(--font-kanit);
+}
